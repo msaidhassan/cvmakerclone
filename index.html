@@ -55,6 +55,7 @@
       background-color: #2dc46a;
       color: white;
       padding: 60px 20px;
+      z-index: 5;
 
     }
 
@@ -88,6 +89,7 @@
       left: -0px;
       bottom: -100px;
     }
+    
 
     .info-card {
       position: relative;
@@ -96,8 +98,12 @@
       background-color: #f7f7f7;
       padding: 0;
       margin: 0 auto;
-      max-width: 800px;
       border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+      text-align: left;
 
     }
 
@@ -142,7 +148,6 @@
       padding: 40px 20px;
       text-align: center;
       position: relative;
-      z-index: -55;
     }
 
     .testimonial-section h2 {
@@ -176,7 +181,7 @@
     .testimonial-card#two:hover {
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       border-color: rgb(88, 88, 212);
-      transform: perspective(1000px) translatez(60px);
+      transform: perspective(1000px) translatez(30px);
       /* Move up and add 3D effect */
 
 
@@ -242,13 +247,7 @@
       /* Adjust gap as needed */
     }
 
-    .info-card {
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      max-width: 800px;
-      width: 100%;
-      text-align: left;
-    }
+    
 
     .info-card h1 {
       font-size: 24px;
